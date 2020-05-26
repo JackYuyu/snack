@@ -1,0 +1,6 @@
+framework module LQQTempLaunchImageManager {
+  umbrella header "LQQTempLaunchImageManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

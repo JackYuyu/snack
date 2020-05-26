@@ -1,0 +1,91 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - EasyNavigation (1.0.5)
+  - IQKeyboardManager (6.5.5)
+  - LQQTempLaunchImageManager (1.0.4):
+    - AFNetworking (~> 3.2.1)
+    - EasyNavigation (~> 1.0.5)
+    - MBProgressHUD (~> 1.1.0)
+    - SDWebImage (~> 5.0.0)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJExtension (3.2.1)
+  - MJRefresh (3.3.1)
+  - MOFSPickerManager (2.2.4)
+  - SDCycleScrollView (1.80):
+    - SDWebImage (>= 5.0.0)
+  - SDWebImage (5.0.6):
+    - SDWebImage/Core (= 5.0.6)
+  - SDWebImage/Core (5.0.6)
+  - TZImagePickerController (3.3.0)
+  - YYModel (1.0.4)
+  - ZJScrollPageView (0.4.0)
+
+DEPENDENCIES:
+  - AFNetworking/NSURLSession
+  - AFNetworking/Reachability
+  - AFNetworking/Security
+  - AFNetworking/Serialization
+  - EasyNavigation
+  - IQKeyboardManager
+  - LQQTempLaunchImageManager
+  - Masonry
+  - MBProgressHUD
+  - MJExtension
+  - MJRefresh
+  - MOFSPickerManager
+  - SDCycleScrollView
+  - TZImagePickerController
+  - YYModel
+  - ZJScrollPageView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - EasyNavigation
+    - IQKeyboardManager
+    - LQQTempLaunchImageManager
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - MOFSPickerManager
+    - SDCycleScrollView
+    - SDWebImage
+    - TZImagePickerController
+    - YYModel
+    - ZJScrollPageView
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  EasyNavigation: 3414769a995d032e5dd9441f2bdd4eda7dd10089
+  IQKeyboardManager: 3a8b9e603f8b0eeaf5f096a1f2b2cfcf121992ef
+  LQQTempLaunchImageManager: 85c1d381f2d8e518d19a245dd5d9a1eba0b218dc
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJExtension: 635f2c663dcb1bf76fa4b715b2570a5710aec545
+  MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
+  MOFSPickerManager: 24c0a437874696622f132c47a351b89df5030f19
+  SDCycleScrollView: b3c9a5ed840c771c4938978174c7c9d9feefeb96
+  SDWebImage: 920f1a2ff1ca8296ad34f6e0510a1ef1d70ac965
+  TZImagePickerController: 57e97774b6d3970abf38619645c7cc1caf257c41
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  ZJScrollPageView: dd8778909cb2413782616ab156e873956f6b0682
+
+PODFILE CHECKSUM: 62cb9f6d3e92bd9a73e785234e0beef7eadbf4e1
+
+COCOAPODS: 1.7.5

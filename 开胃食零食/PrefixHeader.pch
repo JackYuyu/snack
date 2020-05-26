@@ -1,0 +1,65 @@
+//
+//  PrefixHeader.pch
+//  开胃食
+//
+//  Created by haoshi on 2020/4/23.
+//  Copyright © 2020 haoshi. All rights reserved.
+//
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define ShopKey @"7a26a8ccf113464ba9a2075a35b9bafc"
+#define BaseURL @""
+
+
+#define DYWhite [UIColor whiteColor]
+#define DYStyleColor  [UIColor colorWithRed:7/255.0 green:42/255.0 blue:36/255.0 alpha:1]
+#define DYBGColor [UIColor colorWithRed:244/255.0 green:244/255.0 blue:244/255.0 alpha:1]
+#define DYTitleColor [UIColor colorWithRed:247/255.0 green:236/255.0 blue:170/255.0 alpha:1]
+#define DYColor(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
+#define DYFont(x) [UIFont systemFontOfSize:x]
+#define DYTINCOLOR [UIColor colorWithRed:7/255.0 green:42/255.0 blue:36/255.0 alpha:1] //tabbar的tincolor
+#define DYBARTINCOLOR [UIColor whiteColor]//tabbar的bartincolor
+#define DYNAVIBARCOLOR [UIColor colorWithRed:241/255.0 green:138/255.0 blue:62/255.0 alpha:1]
+#define DYAppId @""
+#define DYAppName @"开胃食零食"
+#define DYLaunchName @""
+
+
+
+#define SW [UIScreen mainScreen].bounds.size.width
+#define SH [UIScreen mainScreen].bounds.size.height
+
+#define weakSelf(type) __weak typeof(type) weak##type = type;
+#define IS_IPONE_X ([UIScreen mainScreen].bounds.size.height>=812)
+#define IS_IPONE_XS_XSM_XR ([UIScreen mainScreen].bounds.size.height==896)
+
+#define NAVBARHEIGHT (IS_IPONE_X ? 88.0f:64.0f)
+#define TABBARHEIGHT (IS_IPONE_X ? 87.0f:49.0f)
+#define Userdefaults [NSUserDefaults standardUserDefaults]
+
+
+#import <TZImagePickerController/TZImagePickerController.h>
+#import <IQKeyboardManager/IQKeyboardManager.h>
+#import <SDCycleScrollView/SDCycleScrollView.h>
+#import <ZJScrollPageView/ZJScrollPageView.h>
+#import <EasyNavigation/EasyNavigation.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <MJExtension/MJExtension.h>
+#import <SDWebImage/SDWebImage.h>
+#import <MJRefresh/MJRefresh.h>
+#import <Masonry/Masonry.h>
+#import <YYModel/YYModel.h>
+#import <LaunchAnimateManager.h>
+#import "LZPictureBrowser.h"
+#import "MBProgressHUD+MJ.h"
+#import "UIButton+TitleAndImageEdgeInsets.h"
+#import "RegistLoginViewController.h"
+
+#import "NetHttpTool.h"
+#import "ClearCacheTool.h"
+
+#import "UIView+AZGradient.h"
+
+
+#endif /* PrefixHeader_pch */
